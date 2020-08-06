@@ -83,6 +83,8 @@ cd deb_packs
 wget -qO "https://atom.io/download/deb" "https://steamcdn-a.akamaihd.net/client/installer/steam.deb" "https://discord.com/api/download?platform=linux&format=deb"
 echo "Installed the following deb packages:"
 ls
+echo "yyy" | sudo gdebi *.deb > setup_stdin.txt
+echo "DONE"
 
 chmod 744 setup_intel-3165.sh > setup_stdin.txt
 echo "*******************************************************"
