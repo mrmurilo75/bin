@@ -29,6 +29,9 @@ echo "DONE"
 echo "Installing default-JDK"
 sudo apt-get install -y default-jdk
 echo "DONE"
+echo "Installing Great Haskell Compiler"
+sudo apt-get install -y ghc
+echo "DONE"
 echo "Installing nodejs"
 sudo apt-get install -y nodejs
 echo "DONE"
