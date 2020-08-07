@@ -18,34 +18,34 @@ export PATH=$PATH:~/bin
 echo "New PATH = $PATH"
 
 echo "Installing build-essential"
-sudo apt install -y build-essential
+sudo apt-get install -y build-essential
 echo "DONE"
 echo "Installing gcc-multilib"
-sudo apt install -y gcc-multilib
+sudo apt-get install -y gcc-multilib
 echo "DONE"
 echo "Installing util-linux"
-sudo apt install -y util-linux
+sudo apt-get install -y util-linux
 echo "DONE"
 echo "Installing gparted"
-sudo apt install -y gparted
+sudo apt-get install -y gparted
 echo "DONE"
 echo "Installing git"
-sudo apt install -y git
+sudo apt-get install -y git
 echo "DONE"
 echo "Installing neovim"
-sudo apt install -y neovim
+sudo apt-get install -y neovim
 echo "DONE"
 echo "Installing default-JDK"
-sudo apt install -y default-jdk
+sudo apt-get install -y default-jdk
 echo "DONE"
 echo "Installing snapd"
-sudo apt install -y snapd
+sudo apt-get install -y snapd
 echo "DONE"
 echo "Installing chromium"
-sudo apt-get install -y chromium
+sudo apt-get-get install -y chromium
 echo "DONE"
 echo "Installing gdebi"
-sudo apt-get install -y gdebi-core
+sudo apt-get-get install -y gdebi-core
 echo "DONE"
 
 mkdir deb_packs
@@ -56,4 +56,4 @@ ls
 echo "yyy" | sudo gdebi *.deb
 echo "DONE"
 
-sudo apt update && sudo apt upgrade
+sudo apt-get update && sudo apt-get upgrade
