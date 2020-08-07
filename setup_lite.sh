@@ -17,6 +17,9 @@ echo "Previous PATH = $PATH"
 export PATH=$PATH:~/bin
 echo "New PATH = $PATH"
 
+echo "Installing linux-kernel"
+sudo apt-get install linux-kernel && sudo update-initramfs && sudo apt update && sudo apt full-upgrade
+echo "DONE"
 echo "Installing build-essential"
 sudo apt-get install -y build-essential
 echo "DONE"
