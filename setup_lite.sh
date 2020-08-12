@@ -44,22 +44,16 @@ echo "DONE"
 echo "Installing Great Haskell Compiler"
 sudo apt-get install -y ghc
 echo "DONE"
-echo "Installing snapd"
-sudo apt-get install -y snapd
-echo "DONE"
-echo "Installing chromium"
-sudo apt-get-get install -y chromium
-echo "DONE"
 echo "Installing gdebi"
-sudo apt-get-get install -y gdebi-core
+sudo apt-get install -y gdebi-core
 echo "DONE"
 
 mkdir deb_packs
 cd deb_packs
-wget "https://atom.io/download/deb" "https://steamcdn-a.akamaihd.net/client/installer/steam.deb" "https://discord.com/api/download?platform=linux&format=deb"
-echo "Installed the following deb packages:"
+wget "https://atom.io/download/deb" "https://steamcdn-a.akamaihd.net/client/installer/steam.deb" "https://discord.com/api/download?platform=linux&format=deb" "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
+echo "Installing the following deb packages:"
 ls
-echo "yyy" | sudo gdebi *.deb
+echo "yyyy" | sudo gdebi *.deb
 echo "DONE"
 
-sudo apt-get update && sudo apt-get upgrade
+sudo apt update && sudo apt full-upgrade
