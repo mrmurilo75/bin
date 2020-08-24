@@ -3,8 +3,13 @@
 #include <time.h>
 #define TRUE 1
 #define FALSE 0
+void printhelp(void){
+	printf("Usage:\n\nrandint [OPTIONS] [AMOUNT OF NUMBERS] [MINIMUM] maximum\n\n\t-s\t\tPrint generated numbers as sorted\n\t-h, -*\t\tShows this help message\n");
+	exit(EXIT_SUCCESS);
+}
 
 int main(int argc, char *argv[]){
+	if(argc<2) printhelp();
 	int sort=FALSE, argn=argc-1, times=1, min=0, max, rando;
 	srand(time(NULL));
 	while(argv[argc-argn][0]=='-'){
@@ -12,8 +17,7 @@ int main(int argc, char *argv[]){
 			fprintf(stderr, "Sorting option not yet implemented\n");
 			//sort=TRUE;
 		} else{
-			printf("Usage:\n\nrandint [OPTIONS] [AMOUNT OF NUMBERS] [MINIMUM] maximum\n\n\t-s\t\tPrint generated numbers as sorted\n\t-h, -*\t\tShows this help message\n");
-			exit(EXIT_SUCCESS);
+			printhelp();
 		}
 		argn--;
 	}
@@ -36,7 +40,7 @@ int main(int argc, char *argv[]){
 		times=(max-min);
 //	fprintf(stderr, "times %d, min %d, max %d\n", times, min, max);
 	int *all=malloc(times*sizeof(int));
-	for(int end=0, newn=FALSE; end<times; newn=TRUE, (rando=min +rand() %(max-min))){
+	for(int end=0, newn=FALSE; end<times; newn=TRUE, (rando=min +rand() %(max+1-min))){
 		for(int i=0; i<end; i++)
 			if(all[i]==rando){
 				newn=FALSE;
