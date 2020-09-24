@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo apt remove -y $1 && sudo apt autoremove -y 
+
