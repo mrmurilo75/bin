@@ -73,8 +73,11 @@ echo "DONE"
 echo "Installing vlc"
 sudo apt-get install -y vlc
 echo "DONE"
-echo "Installing vokoscreen"
-sudo apt-get install -y vokoscreen
+echo "Installing simplescreenrecrder"
+sudo apt-get install -y simplescreenrecorder
+echo "DONE"
+echo "Installing flowblade"
+sudo apt-get install -y flowblade
 echo "DONE"
 echo "Installing gdebi"
 sudo apt-get install -y gdebi-core
