@@ -76,9 +76,6 @@ echo "DONE"
 echo "Installing simplescreenrecrder"
 sudo apt-get install -y simplescreenrecorder
 echo "DONE"
-echo "Installing flowblade"
-sudo apt-get install -y flowblade
-echo "DONE"
 echo "Installing gdebi"
 sudo apt-get install -y gdebi-core
 echo "DONE"
