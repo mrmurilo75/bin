@@ -56,4 +56,4 @@ ls
 echo "yyyy" | sudo gdebi *.deb
 echo "DONE"
 
-sudo apt update && sudo apt full-upgrade
+sudo apt update && sudo apt full-upgrade -y
