@@ -59,6 +59,7 @@ wget "https://atom.io/download/deb" "https://dl.google.com/linux/direct/google-c
 echo "Installing the following deb packages:"
 ls
 echo "yyyy" | sudo gdebi *.deb
+cd ~ && rm -r deb_packs
 echo "DONE"
 
 sudo apt update && sudo apt full-upgrade -y
