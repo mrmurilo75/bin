@@ -50,7 +50,7 @@ echo "Installing gdebi"
 sudo apt-get install -y gdebi-core
 echo "DONE"
 echo "Changing ESC and CapsLock"
-cd ~ && echo "setxkbmap -option caps:swapescape" | cat >> .bashrc
+cd ~ && echo -e "\nsetxkbmap -option caps:swapescape \nPATH=$PATH:$HOME/bin \nexport PATH\n" | cat >> .bashrc
 echo "DONE"
 
 mkdir deb_packs
