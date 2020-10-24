@@ -50,16 +50,15 @@ echo "Installing gdebi"
 sudo apt-get install -y gdebi-core
 echo "DONE"
 echo "Changing ESC and CapsLock"
-cd ~ && echo -e "\nsetxkbmap -option caps:swapescape \nPATH=$PATH:$HOME/bin \nexport PATH\n" | cat >> .bashrc
+echo -e "\nsetxkbmap -option caps:swapescape \nPATH=$PATH:$HOME/bin \nexport PATH\n" | cat >> $HOME/.bashrc
 echo "DONE"
 
-mkdir deb_packs
-cd deb_packs
+mkdir $HOME/deb_packs && cd $HOME/deb_packs
 wget "https://atom.io/download/deb" "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 echo "Installing the following deb packages:"
 ls
-echo "yyyy" | sudo gdebi *.deb
-cd ~ && rm -r deb_packs
+echo "yyyy" | sudo gdebi *deb
+rm -r $HOME/deb_packs
 echo "DONE"
 
 sudo apt update && sudo apt full-upgrade -y
