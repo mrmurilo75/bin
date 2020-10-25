@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo -e "\tCurrent status: \n"
+git status
+VAR="n"
+echo -e "Actions to take: "
+git clean -nfdx
+git fetch --dry-run --all --force -p
+echo -ne "\n\tContinue [y/n]? "
+read VAR
+if [ "${VAR,,}" = "y" ] || [ "${VAR,,}" = "yes" ]
+then
+	git clean -fdx
+	git fetch --all --force -p
+	git pull
+	echo -e "Done\n\tCurrent status: "
+	git status
+else
+	echo -e "Cancelled (No actions taken)"
+fi
