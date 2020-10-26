@@ -14,7 +14,7 @@ echo -ne "\n\tContinue [y/n]? "
 read VAR
 if [ "${VAR,,}" = "y" ] || [ "${VAR,,}" = "yes" ]
 then
-	git reset --hard
+	git reset --hard origin
 	git clean -fdx
 	git fetch --all --force -p
 	git pull
