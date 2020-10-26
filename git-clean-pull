@@ -3,18 +3,20 @@
 echo -e "\tCurrent status: \n"
 git status
 VAR="n"
+MAS=$(git status | grep -o -m 1 "master" || echo "main")
 echo -e "Actions to take: "
-if git status | grep "Your branch is ahead" || git status | grep "Changes to be commited"
-then
-        echo "reset branch to origin/master"
-fi
+#if git status | grep -e "Your branch is ahead" -e "Changes to be commited"
+#then
+#        echo -n "reset branch to origin/" 
+	echo $MAS
+#fi
 git clean -nfdx
 git fetch --dry-run --all --force -p
 echo -ne "\n\tContinue [y/n]? "
 read VAR
 if [ "${VAR,,}" = "y" ] || [ "${VAR,,}" = "yes" ]
 then
-	git reset --hard origin
+	git reset --hard origin/$MAS
 	git clean -fdx
 	git fetch --all --force -p
 	git pull
