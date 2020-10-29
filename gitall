@@ -4,7 +4,7 @@ if [ $# == 1 ]
 then
 	git add --all
 	git commit -m "$1"
-	git push origin
+	#git push origin
 else
 	echo "Please, insert a commit message"
 fi
