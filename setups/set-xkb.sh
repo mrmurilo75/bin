@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo cp set-xkb/us /usr/share/X11/xkb/symbols/us
+sudo cp $HOME/bin/setups/set-xkb/us /usr/share/X11/xkb/symbols/us
