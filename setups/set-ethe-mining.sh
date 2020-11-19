@@ -21,7 +21,7 @@ if cat $HOME/.bashrc | grep -c -F "alias start-ethminer" > /dev/null
 then
 	:
 else
-	echo -e "\nalias start-ethminer=\"cd $HOME/packs/ethminer-0.18.0-cuda-9-linux-x86_64/bin && ./ethminer -U -P stratum1+tcp://0xBf4b91fAcFaD9C61257D1D410C5A873dADB9f77e.Worker:@eu1.ethpool.org:3333\" \n" | cat >> $HOME/.bashrc 
+	echo -e "\nalias start-ethminer=\"cd $HOME/packs/ethminer-0.18.0-cuda-9-linux-x86_64/bin && ./ethminer -U -P stratum1+tcp://0xBf4b91fAcFaD9C61257D1D410C5A873dADB9f77e.Worker:@eu1-etc.ethermine.org:4444\" \n" | cat >> $HOME/.bashrc 
 fi
 
 if cat $HOME/.bashrc | grep -c -F "alias start-geth" > /dev/null
