@@ -1,7 +1,7 @@
 default  partial alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
-    name[Group1]= "English (US)";
+    name[Group1]= "Costumized Basic";
 
     key <TLDE> {	[     grave,	asciitilde	]	};
     key <AE01> {	[	  1,	exclam 		]	};
@@ -27,8 +27,8 @@ xkb_symbols "basic" {
     key <AD08> {	[	  i,	I		]	};
     key <AD09> {	[	  o,	O		]	};
     key <AD10> {	[	  p,	P		]	};
-    key <AD11> {	[ bracketleft,	braceleft	]	};
-    key <AD12> {	[ bracketright,	braceright	]	};
+    key <AD11> {	[     comma,	less		]	};
+    key <AD12> {	[    period,	greater		]	};
 
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
@@ -36,21 +36,21 @@ xkb_symbols "basic" {
     key <AC04> {	[	  f,	F		]	};
     key <AC05> {	[	  g,	G		]	};
     key <AC06> {	[	  h,	H		]	};
-    key <AC07> {	[	  j,	J		]	};
-    key <AC08> {	[	  k,	K		]	};
+    key <AC07> {	[	  n,	N		]	};
+    key <AC08> {	[	  m,	M		]	};
     key <AC09> {	[	  l,	L		]	};
     key <AC10> {	[ semicolon,	colon		]	};
     key <AC11> {	[ apostrophe,	quotedbl	]	};
 
-    key <AB01> {	[	  z,	Z 		]	};
-    key <AB02> {	[	  x,	X		]	};
+    key <AB01> {	[ bracketleft,	braceleft	]	};
+    key <AB02> {	[ bracketright,	braceright	]	};
     key <AB03> {	[	  c,	C		]	};
     key <AB04> {	[	  v,	V		]	};
-    key <AB05> {	[	  b,	B		]	};
-    key <AB06> {	[	  n,	N		]	};
-    key <AB07> {	[	  m,	M		]	};
-    key <AB08> {	[     comma,	less		]	};
-    key <AB09> {	[    period,	greater		]	};
+    key <AB05> {	[	  x,	X		]	};
+    key <AB06> {	[	  b,	B		]	};
+    key <AB07> {	[	  k,	K		]	};
+    key <AB08> {	[	  j,	J		]	};
+    key <AB09> {	[	  z,	Z 		]	};
     key <AB10> {	[     slash,	question	]	};
 
     key <BKSL> {	[ backslash,         bar	]	};
