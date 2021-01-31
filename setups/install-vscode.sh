@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir $HOME/.deb_packs
 cd $HOME/.deb_packs
 wget "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"

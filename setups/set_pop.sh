@@ -14,6 +14,12 @@ echo -e "(apt-extras.sh)\tDone"
 echo -e "\n\tRunning install-dev-basics.sh ..."
 ./install-dev-basics.sh
 echo -e "(install-dev-basics.sh)\tDone"
+echo -e "\n\tRunning install-chrome.sh ..."
+./install-chrome.sh
+echo -e "(install-chrome.sh)\tDone"
+echo -e "\n\tRunning install-vscode.sh ..."
+./install-vscode.sh
+echo -e "(install-vscode.sh)\tDone"
 echo -e "\n\tRunning set-bashrc.sh ..."
 ./set-bashrc.sh
 echo -e "(set-bashrc.sh)\tDone"
