@@ -17,9 +17,9 @@ echo -e "(install-dev-basics.sh)\tDone"
 echo -e "\n\tRunning set-bashrc.sh ..."
 ./set-bashrc.sh
 echo -e "(set-bashrc.sh)\tDone"
-echo -e "\n\tRunning set-xkb.sh ..."
-./set-xkb.sh
-echo -e "(set-xkb.sh)\tDone"
+
+echo -e "\n\tRemoving libreoffice ..."
+sudo apt remove -y libreoffice-*
 
 echo -e "\n\tRunning apt-clean-upgrade.sh ..."
 ./apt-clean-upgrade.sh
