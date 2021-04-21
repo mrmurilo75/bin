@@ -12,9 +12,10 @@ if which atom
 then
 	:
 else
-	mkdir $HOME/.deb_packs && cd $HOME/.deb_packs
-	wget "https://atom.io/download/deb"
-	echo -e "\n\tInstalling atom as 'deb'"
+	mkdir $HOME/.deb_packs
+	cd $HOME/.deb_packs
+	wget 'https://atom.io/download/deb' 'https://discord.com/api/download?platform=linux&format=deb'
+	echo -e "\n\tInstalling all deb packs (atom, discord):"
 	echo "yy" | sudo gdebi *deb
 	rm -r $HOME/deb_packs
 	echo "DONE"
