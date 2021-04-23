@@ -24,6 +24,6 @@ echo -e "\n\tRunning install-github-cli.sh ..."
 ./install-github-cli.sh
 echo -e "\tDONE"
 echo -e "\n\tInstalling default-JDK"
-sudo apt-get install -y default-jdk
+sudo apt-get install -y openjdk-13-jdk
 echo -e "\tDONE"
 
