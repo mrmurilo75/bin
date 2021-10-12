@@ -14,6 +14,9 @@ echo -e "(apt-extras.sh)\tDone"
 echo -e "\n\tRunning install-dev-basics.sh ..."
 ./install-dev-basics.sh
 echo -e "(install-dev-basics.sh)\tDone"
+echo -e "\n\tRunning install-py3.sh ..."
+./install-py3.sh
+echo -e "(install-py3.sh)\tDone"
 echo -e "\n\tRunning install-vscode.sh ..."
 ./install-vscode.sh
 echo -e "(install-vscode.sh)\tDone"
