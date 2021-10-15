@@ -10,4 +10,5 @@ cp $APPS/google-chrome.desktop $AUTO
 cp $APPS/org.gnome.Terminal.desktop $AUTO
 cp $APPS/spotify.desktop $AUTO
 cp $APPS/discord.desktop $AUTO
+cp $APPS/slack.desktop $AUTO
 
