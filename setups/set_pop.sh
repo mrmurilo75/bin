@@ -40,5 +40,5 @@ echo -e "\n\tRunning apt-clean-upgrade.sh ..."
 ./apt-clean-upgrade.sh
 echo -e "(apt-clean-upgrade.sh)\tDone"
 
-brave-browse https://slack.com/intl/en-pt/downloads/linux 
+brave-browser https://slack.com/intl/en-pt/downloads/linux 
 
