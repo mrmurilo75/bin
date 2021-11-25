@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Bash scrip for fetching and showing complete status
+#   for all subdirectories that are git repos
+
+src=$(pwd)
+
+cd $src && for gitdir in $(ls -d *); do
+	echo -e "\n\t STATUS FOR REPO: $gitdir "
+	cd $src/$gitdir && \
+		if ls -A | grep -w -F .git ; then 
+			git fetch && git status && git log -1
+		fi
+	echo " ----------------------------------------------- " 
+done
