@@ -20,9 +20,6 @@ echo -e "(install-discord.sh)\tDone"
 echo -e "\n\tRunning install-py3.sh ..."
 ./install-py3.sh
 echo -e "(install-py3.sh)\tDone"
-echo -e "\n\tRunning install-vscode.sh ..."
-./install-vscode.sh
-echo -e "(install-vscode.sh)\tDone"
 echo -e "\n\tRunning install-spotify.sh ..."
 ./install-spotify.sh
 echo -e "(install-spotify.sh)\tDone"
@@ -39,6 +36,8 @@ sudo apt remove -y libreoffice-*
 echo -e "\n\tRunning apt-clean-upgrade.sh ..."
 ./apt-clean-upgrade.sh
 echo -e "(apt-clean-upgrade.sh)\tDone"
+
+./setup-github.sh
 
 brave-browser https://slack.com/intl/en-pt/downloads/linux 
 
