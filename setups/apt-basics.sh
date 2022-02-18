@@ -15,4 +15,7 @@ echo -e "\tDONE"
 echo -e "\n\tInstalling lm-sensors"
 sudo apt-get install -y lm-sensors
 echo -e "\tDONE"
+echo -e "\n\tInstalling psensor"
+sudo apt-get install -y psensor
+echo -e "\tDONE"
 ./install-brave-browser.sh
