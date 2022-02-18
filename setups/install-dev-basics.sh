@@ -15,6 +15,9 @@ echo -e "\tDONE"
 echo -e "\n\tInstalling npm"
 sudo apt-get install -y npm
 echo -e "\tDONE"
+echo -e "\n\tInstalling postgresql"
+sudo apt-get install -y postgresql
+echo -e "\tDONE"
 echo -e "\n\tInstalling default-JDK"
 sudo apt-get install -y openjdk-13-jdk
 echo -e "\tDONE"
