@@ -1,0 +1,2 @@
+echo -e 'NO\n' | ./install/apt-minimal.sh >> /dev/null
+
