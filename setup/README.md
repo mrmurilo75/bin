@@ -2,7 +2,7 @@
 
 - the main idea is to facilitate setting up in a debian-based enviroment (my testing setup is of Pop!OS)
 
-<span></span>
+#### Running
 
 The setups scrips are here on the home along with some utility-scripts.
 
@@ -15,4 +15,20 @@ There are three incremental setup levels for different enviroments/machines:
 
 To start simply run the script wanted from the setup/ folder
 ```$ ./set-[setup level].sh```
+
+#
+
+#### Installed Programs
+
+###### apt
+> Install using a apt-get
+ * 
+
+###### installers
+> Installed through a installer script as from download pages or .deb packs (latter are kept in ~/Programs/deb-packs)
+ * 
+
+###### AppImages
+> Download into ~/Programs (ready to run)
+ * 
 
