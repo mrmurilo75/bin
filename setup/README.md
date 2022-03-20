@@ -22,7 +22,45 @@ To start simply run the script wanted from the setup/ folder
 
 ###### apt
 > Install using a apt-get
- * 
+ 1. Essencials
+    * linux-kernel (and update-initramfs)
+    * build-essential
+    * gcc-multilib
+    * util-linux
+
+ 2. Minimal
+    * > Essentials (optional)
+    * neovim
+    * git
+    * lm-sensors
+    * psensor
+
+ 3. Basics
+    * > Essentials
+    * > Minimal
+    * gparted
+    * xclip
+    * vlc
+    * gdebi-core
+
+ 4. Devs
+    * > Essentials
+    * > Minimal 
+    * > Basics
+    * nodejs
+    * npm 
+    * python3
+    * tree
+    * inkscape
+
+ 5. Extras
+    * > Essentials
+    * > Minimal 
+    * > Basics
+    * transmission
+    * simplescreenrecorder
+    * gnome-boxes
+
 
 ###### installers
 > Installed through a installer script as from download pages or .deb packs (latter are kept in ~/Programs/deb-packs)
