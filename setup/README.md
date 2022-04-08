@@ -69,6 +69,7 @@ To start simply run the script wanted from the setup/ folder
     - >  Essentials
     - >  Minimal 
     - >  Basics
+    - >  Devs
     - #### &check; apt
       - transmission
       - simplescreenrecorder
