@@ -9,9 +9,9 @@ The setups scrips are here on the home along with some utility-scripts.
 There are three incremental setup levels for different enviroments/machines:
  - [X] essencials - basically updating linux build
  - [X] minimal    - browser and other cli necessities (running essencials is optional)
- - [] basic      - multi-browser and more utilities
- - [] devs       - most things needed for a working development/study environment
- - [] extras     - other things that may come in hand
+ - [ ] basic      - multi-browser and more utilities
+ - [ ] devs       - most things needed for a working development/study environment
+ - [ ] extras     - other things that may come in hand
 
 To start simply run the script wanted from the setup/ folder
 ```$ ./set_[setup level].sh```
@@ -32,45 +32,45 @@ To start simply run the script wanted from the setup/ folder
 
  1. Essencials
     - [X] #### apt
-    - - linux-kernel (and update-initramfs)
-    - - build-essential
-    - - gcc-multilib
-    - - util-linux
+      - linux-kernel (and update-initramfs)
+      - build-essential
+      - gcc-multilib
+      - util-linux
 
  2. Minimal
     - > Essentials **(optional)**
     - [X] #### apt
-    - - neovim
-    - - git
-    - - lm-sensors
-    - - psensor
+      - neovim
+      - git
+      - lm-sensors
+      - psensor
 
  3. Basics
     - > Essentials
     - > Minimal
     - [X] #### apt
-    - - gparted
-    - - xclip
-    - - vlc
-    - - gdebi-core
+      - gparted
+      - xclip
+      - vlc
+      - gdebi-core
 
  4. Devs
     - > Essentials
     - > Minimal 
     - > Basics
     - [X] #### apt
-    - - nodejs
-    - - npm 
-    - - python3
-    - - tree
-    - - inkscape
+      - nodejs
+      - npm 
+      - python3
+      - tree
+      - inkscape
 
  5. Extras
     - >  Essentials
     - >  Minimal 
     - >  Basics
-    - - #### apt
-    - - transmission
-    - - simplescreenrecorder
-    - - gnome-boxes
+    - #### [X] apt
+      - transmission
+      - simplescreenrecorder
+      - gnome-boxes
 
