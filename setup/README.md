@@ -43,6 +43,8 @@ To start simply run the script wanted from the setup/ folder
       - git
       - lm-sensors
       - psensor
+    - #### &check; Installer
+      - 
 
  3. ### Basics
     - > Essentials
@@ -52,6 +54,8 @@ To start simply run the script wanted from the setup/ folder
       - xclip
       - vlc
       - gdebi-core
+    - #### &check; Installer
+      - 
 
  4. ### Devs
     - > Essentials
@@ -63,6 +67,8 @@ To start simply run the script wanted from the setup/ folder
       - python3
       - tree
       - inkscape
+    - #### &check; Installer
+      - 
 
  5. ### Extras
     - >  Essentials
@@ -73,4 +79,6 @@ To start simply run the script wanted from the setup/ folder
       - transmission
       - simplescreenrecorder
       - gnome-boxes
+    - #### &check; Installer
+      - 
 
