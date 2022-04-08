@@ -46,7 +46,7 @@ To start simply run the script wanted from the setup/ folder
       - git
       - lm-sensors
       - psensor
-    - #### &check; Installer
+    - #### [ ] Installer
       - brave-browser
 
  3. ### Basics
@@ -62,7 +62,7 @@ To start simply run the script wanted from the setup/ folder
       - xclip
       - vlc
       - gdebi-core
-    - #### &check; Installer
+    - #### [ ] Installer
       - chrome-stable
       - discord
 
@@ -82,7 +82,7 @@ To start simply run the script wanted from the setup/ folder
       - tree
       - inkscape
       - gnome-boxes
-    - #### &check; Installer
+    - #### [ ] Installer
       - PyCharm [redirect]
       - CLion   [redirect]
       - slack   [redirect]
@@ -96,7 +96,7 @@ To start simply run the script wanted from the setup/ folder
       - transmission
       - simplescreenrecorder
       - steam
-    - #### &check; Installer
+    - #### [ ] Installer
       - balena-ecther
       - brave-browser-beta
       - spotify
