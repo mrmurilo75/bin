@@ -44,12 +44,13 @@ To start simply run the script wanted from the setup/ folder
       - lm-sensors
       - psensor
     - #### &check; Installer
-      - 
+      - brave-browser
 
  3. ### Basics
     - > Essentials
     - > Minimal
     - #### &check; apt
+      - apt-transport-https
       - ca-certificates
       - curl
       - gnupg
@@ -59,7 +60,8 @@ To start simply run the script wanted from the setup/ folder
       - vlc
       - gdebi-core
     - #### &check; Installer
-      - 
+      - chrome-stable
+      - discord
 
  4. ### Devs
     - > Essentials
@@ -78,7 +80,9 @@ To start simply run the script wanted from the setup/ folder
       - inkscape
       - gnome-boxes
     - #### &check; Installer
-      - 
+      - PyCharm [redirect]
+      - CLion   [redirect]
+      - slack   [redirect]
 
  5. ### Extras
     - >  Essentials
@@ -90,5 +94,7 @@ To start simply run the script wanted from the setup/ folder
       - simplescreenrecorder
       - steam
     - #### &check; Installer
-      - 
+      - balena-ecther
+      - brave-browser-beta
+      - spotify
 
