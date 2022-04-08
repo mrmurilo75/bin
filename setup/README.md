@@ -28,6 +28,9 @@ To start simply run the script wanted from the setup/ folder
 > ##### AppImages
 > Download into ~/Programs (ready to run)
 
+> ##### Configuration step
+> Auto configure settings where possible, and redirect where necessary
+
 
  1. ### Essencials
     - #### &check; apt
