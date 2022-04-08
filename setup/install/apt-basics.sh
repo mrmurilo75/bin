@@ -4,7 +4,8 @@
 ./apt-minimal.sh
 
 
-echo -e "\n\tInstalling ca-certificates curl gnupg lsb-release gparted xclip vlc gdebi-core --------------\n"
+echo -e "\n\tInstalling apt-transport-https ca-certificates curl gnupg lsb-release gparted xclip vlc gdebi-core --------------\n"
+sudo apt-get install -y apt-transport-https
 sudo apt-get install -y ca-certificates 
 sudo apt-get install -y curl
 sudo apt-get install -y gnupg 
