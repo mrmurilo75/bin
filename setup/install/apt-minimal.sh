@@ -13,5 +13,7 @@ fi
 
 echo -e "\n\tInstalling neovim git lm-sensors psensors --------------\n"
 sudo apt-get install -y neovim git lm-sensors psensors
+sudo apt-get install -y neovim git lm-sensors psensors
+sudo apt-get install -y neovim git lm-sensors psensors
 echo -e "\n\tDONE ---------------------------------------------------\n"
 
