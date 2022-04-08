@@ -23,43 +23,43 @@ To start simply run the script wanted from the setup/ folder
 ###### apt
 > Install using a apt-get
  1. Essencials
-    [X] linux-kernel (and update-initramfs)
-    [X] build-essential
-    [X] gcc-multilib
-    [X] util-linux
+    - [X] linux-kernel (and update-initramfs)
+    - [X] build-essential
+    - [X] gcc-multilib
+    - [X] util-linux
 
  2. Minimal
-    [X] > Essentials (optional)
-    [X] neovim
-    [X] git
-    [X] lm-sensors
-    [X] psensor
+    - [X] > Essentials (optional)
+    - [X] neovim
+    - [X] git
+    - [X] lm-sensors
+    - [X] psensor
 
  3. Basics
-    [X] > Essentials
-    [X] > Minimal
-    [X] gparted
-    [X] xclip
-    [X] vlc
-    [X] gdebi-core
+    - [X] > Essentials
+    - [X] > Minimal
+    - [X] gparted
+    - [X] xclip
+    - [X] vlc
+    - [X] gdebi-core
 
  4. Devs
-    [X] > Essentials
-    [X] > Minimal 
-    [X] > Basics
-    [X] nodejs
-    [X] npm 
-    [X] python3
-    [X] tree
-    [X] inkscape
+    - [X] > Essentials
+    - [X] > Minimal 
+    - [X] > Basics
+    - [X] nodejs
+    - [X] npm 
+    - [X] python3
+    - [X] tree
+    - [X] inkscape
 
  5. Extras
-    [X] > Essentials
-    [X] > Minimal 
-    [X] > Basics
-    [X] transmission
-    [X] simplescreenrecorder
-    [X] gnome-boxes
+    - [X] > Essentials
+    - [X] > Minimal 
+    - [X] > Basics
+    - [X] transmission
+    - [X] simplescreenrecorder
+    - [X] gnome-boxes
 
 
 ###### installers
