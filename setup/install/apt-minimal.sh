@@ -11,6 +11,7 @@ else
 	echo -e 'Essencials from apt have NOT been installed!\nPlease run:\n\t setup/install/apt-essencials.sh\nat a convenient moment'
 fi
 
+sudo apt update
 echo -e "\n\tInstalling neovim git lm-sensors psensors --------------\n"
 sudo apt-get install -y neovim
 sudo apt-get install -y git
