@@ -50,6 +50,10 @@ To start simply run the script wanted from the setup/ folder
     - > Essentials
     - > Minimal
     - #### &check; apt
+      - ca-certificates
+      - curl
+      - gnupg
+      - lsb-release
       - gparted
       - xclip
       - vlc
@@ -62,11 +66,17 @@ To start simply run the script wanted from the setup/ folder
     - > Minimal 
     - > Basics
     - #### &check; apt
+      - postgresql
+      - mysql-server
+      - docker ( ., .-engine, ..io )
+      - containerd
+      - runc
       - nodejs
       - npm 
-      - python3
+      - python3 ( ., .-dev, .-pip, .-venv )
       - tree
       - inkscape
+      - gnome-boxes
     - #### &check; Installer
       - 
 
@@ -78,7 +88,7 @@ To start simply run the script wanted from the setup/ folder
     - #### &check; apt
       - transmission
       - simplescreenrecorder
-      - gnome-boxes
+      - steam
     - #### &check; Installer
       - 
 
