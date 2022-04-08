@@ -1,6 +1,6 @@
 # This is a bundle of setup scripts
 
-- the main idea is to facilitate setting up in a debian-based enviroment (my testing setup is of Pop!OS)
+The main idea is to facilitate setting up in a debian-based enviroment (my testing setup is of Pop!OS)
 
 ## Running
 
@@ -16,9 +16,8 @@ There are three incremental setup levels for different enviroments/machines:
 To start simply run the script wanted from the setup/ folder
 ```$ ./set_[setup level].sh```
 
-#
 
-### Installed Programs
+## Installed Programs
 
 > ##### apt
 > Install using a apt-get
@@ -30,14 +29,14 @@ To start simply run the script wanted from the setup/ folder
 > Download into ~/Programs (ready to run)
 
 
- 1. Essencials
+ 1. ### Essencials
     - #### &check; apt
       - linux-kernel (and update-initramfs)
       - build-essential
       - gcc-multilib
       - util-linux
 
- 2. Minimal
+ 2. ### Minimal
     - > Essentials **(optional)**
     - #### &check; apt
       - neovim
@@ -45,7 +44,7 @@ To start simply run the script wanted from the setup/ folder
       - lm-sensors
       - psensor
 
- 3. Basics
+ 3. ### Basics
     - > Essentials
     - > Minimal
     - #### &check; apt
@@ -54,7 +53,7 @@ To start simply run the script wanted from the setup/ folder
       - vlc
       - gdebi-core
 
- 4. Devs
+ 4. ### Devs
     - > Essentials
     - > Minimal 
     - > Basics
@@ -65,7 +64,7 @@ To start simply run the script wanted from the setup/ folder
       - tree
       - inkscape
 
- 5. Extras
+ 5. ### Extras
     - >  Essentials
     - >  Minimal 
     - >  Basics
