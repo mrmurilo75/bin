@@ -31,7 +31,7 @@ To start simply run the script wanted from the setup/ folder
 
 
  1. Essencials
-    - [X] #### apt
+    - #### &check; apt
       - linux-kernel (and update-initramfs)
       - build-essential
       - gcc-multilib
@@ -39,7 +39,7 @@ To start simply run the script wanted from the setup/ folder
 
  2. Minimal
     - > Essentials **(optional)**
-    - [X] #### apt
+    - #### &check; apt
       - neovim
       - git
       - lm-sensors
@@ -48,7 +48,7 @@ To start simply run the script wanted from the setup/ folder
  3. Basics
     - > Essentials
     - > Minimal
-    - [X] #### apt
+    - #### &check; apt
       - gparted
       - xclip
       - vlc
@@ -58,7 +58,7 @@ To start simply run the script wanted from the setup/ folder
     - > Essentials
     - > Minimal 
     - > Basics
-    - [X] #### apt
+    - #### &check; apt
       - nodejs
       - npm 
       - python3
@@ -69,7 +69,7 @@ To start simply run the script wanted from the setup/ folder
     - >  Essentials
     - >  Minimal 
     - >  Basics
-    - #### [X] apt
+    - #### &check; apt
       - transmission
       - simplescreenrecorder
       - gnome-boxes
