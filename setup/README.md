@@ -82,6 +82,8 @@ To start simply run the script wanted from the setup/ folder
       - tree
       - inkscape
       - gnome-boxes
+    - #### &check; appimage
+      - xournal++ (v1.1.1)
     - #### [ ] Installer
       - PyCharm [redirect]
       - CLion   [redirect]
@@ -96,6 +98,8 @@ To start simply run the script wanted from the setup/ folder
       - transmission
       - simplescreenrecorder
       - steam
+    - #### &check; appimage
+      - VidCutter (v6.0.0)
     - #### [ ] Installer
       - balena-ecther
       - brave-browser-beta
