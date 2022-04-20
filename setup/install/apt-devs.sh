@@ -1,10 +1,5 @@
 #!/bin/bash
 
-./apt-essentials.sh
-./apt-minimal.sh
-./apt-basics.sh
-
-
 echo -e "\n\tInstalling postgresql mysql-server docker docker-engine docker.io containerd runc nodejs npm python3 tree inskscape gnome-boxes --------------\n"
 sudo apt-get install -y postgresql
 sudo apt-get install -y mysql-server  
