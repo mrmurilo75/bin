@@ -7,8 +7,8 @@ The main idea is to facilitate setting up in a debian-based enviroment (my testi
 The setups scrips are here on the home along with some utility-scripts.
 
 There are three incremental setup levels for different enviroments/machines:
- - [X] essencials - basically updating linux build
- - [X] minimal    - browser and other cli necessities (running essencials is optional)
+ - [X] essentials - basically updating linux build
+ - [X] minimal    - browser and other cli necessities (running essentials is optional)
  - [X] basic      - multi-browser and more utilities
  - [X] devs       - most things needed for a working development/study environment
  - [X] extras     - other things that may come in hand
@@ -32,7 +32,7 @@ To start simply run the script wanted from the setup/ folder
 > Auto configure settings where possible, and redirect where necessary
 
 
- 1. ### Essencials
+ 1. ### Essentials
     - #### &check; apt
       - linux-kernel (and update-initramfs)
       - build-essential
