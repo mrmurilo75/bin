@@ -9,9 +9,9 @@ The setups scrips are here on the home along with some utility-scripts.
 There are three incremental setup levels for different enviroments/machines:
  - [X] essencials - basically updating linux build
  - [X] minimal    - browser and other cli necessities (running essencials is optional)
- - [ ] basic      - multi-browser and more utilities
- - [ ] devs       - most things needed for a working development/study environment
- - [ ] extras     - other things that may come in hand
+ - [X] basic      - multi-browser and more utilities
+ - [X] devs       - most things needed for a working development/study environment
+ - [X] extras     - other things that may come in hand
 
 To start simply run the script wanted from the setup/ folder
 ```$ ./set_[setup level].sh```
@@ -46,7 +46,7 @@ To start simply run the script wanted from the setup/ folder
       - git
       - lm-sensors
       - psensor
-    - #### [ ] Installer
+    - #### &check; Installer
       - brave-browser
 
  3. ### Basics
@@ -62,7 +62,7 @@ To start simply run the script wanted from the setup/ folder
       - xclip
       - vlc
       - gdebi-core
-    - #### [ ] Installer
+    - #### &check; Installer
       - chrome-stable
       - discord
 
@@ -84,10 +84,9 @@ To start simply run the script wanted from the setup/ folder
       - gnome-boxes
     - #### &check; appimage
       - xournal++ (v1.1.1)
-    - #### [ ] Installer
-      - PyCharm [redirect]
-      - CLion   [redirect]
-      - slack   [redirect]
+    - #### &check; Installer
+      - xournal++ (v1.1.1 deb)
+      - PyCharm (on tar.gz)
 
  5. ### Extras
     - >  Essentials
@@ -100,8 +99,8 @@ To start simply run the script wanted from the setup/ folder
       - steam
     - #### &check; appimage
       - VidCutter (v6.0.0)
-    - #### [ ] Installer
+    - #### &check; Installer
       - balena-ecther
       - brave-browser-beta
-      - spotify
+      - spotify (2022)
 
