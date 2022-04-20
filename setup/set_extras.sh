@@ -1,5 +1,7 @@
 #!/bin/bash
 
+SET_DEVS_LAST=0
+
 ./set_devs.sh
 
 cd install 
@@ -7,4 +9,12 @@ cd install
 do
     ./$i
 done
+
+
+if [ $SET_EXTRAS_LAST ]
+then
+	:
+else
+	cd install && ./finalize.sh
+fi
 

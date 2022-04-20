@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+SET_ESSENTIALS_LAST=0
 echo -e "\nWould you like to set essentials now (this may take a while)? [y/N]  "
 
 read input
@@ -16,4 +17,12 @@ cd install
 do
     ./$i
 done
+
+
+if [ $SET_MINIMAL_LAST ]
+then
+	:
+else
+	cd install && ./finalize.sh
+fi
 
