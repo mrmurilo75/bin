@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\n\tInstalling postgresql mysql-server docker docker-engine docker.io containerd runc nodejs npm python3 tree inskscape gnome-boxes --------------\n"
+echo -e "\n\tInstalling postgresql mysql-server docker docker-engine docker.io containerd runc nodejs npm python3 tree inskscape gnome-boxes xournalpp --------------\n"
 sudo apt-get install -y postgresql
 sudo apt-get install -y mysql-server  
 sudo apt-get install -y docker  
@@ -17,6 +17,7 @@ sudo apt-get install -y python3-venv
 sudo apt-get install -y tree
 sudo apt-get install -y inskscape
 sudo apt-get install -y gnome-boxes
+sudo apt-get install -y xournalpp
 echo -e "\n\tDONE ---------------------------------------------------\n"
 
 
