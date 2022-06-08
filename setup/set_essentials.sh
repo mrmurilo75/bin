@@ -1,15 +1,14 @@
 #!/bin/bash
 
 cd install 
- for i in $(ls *essentials.sh)
-do
+
+for i in $(ls *essentials.sh); do
     ./$i
 done
 
-if [ $SET_ESSENTIALS_LAST ]
-then
+if [ $SET_ESSENTIALS_LAST ]; then
 	:
 else
-	cd install && ./finalize.sh
+	./finalize.sh
 fi
 

@@ -13,16 +13,15 @@ else
 fi
 
 cd install 
- for i in $(ls *minimal.sh)
-do
+
+for i in $(ls *minimal.sh); do
     ./$i
 done
 
 
-if [ $SET_MINIMAL_LAST ]
-then
+if [ $SET_MINIMAL_LAST ]; then
 	:
 else
-	cd install && ./finalize.sh
+	./finalize.sh
 fi
 
