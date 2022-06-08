@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\n\tInstalling postgresql mysql-server docker docker-engine docker.io containerd runc nodejs npm python3 tree inskscape gnome-boxes xournalpp --------------\n"
+echo -e "\n\tInstalling postgresql mysql-server docker docker-engine docker.io containerd runc docker-compose nodejs npm python3 tree inskscape gnome-boxes xournalpp --------------\n"
 sudo apt-get install -y postgresql
 sudo apt-get install -y mysql-server  
 sudo apt-get install -y docker  
@@ -8,6 +8,7 @@ sudo apt-get install -y docker-engine
 sudo apt-get install -y docker.io  
 sudo apt-get install -y containerd 
 sudo apt-get install -y runc
+sudo apt-get install -y docker-compose
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 sudo apt-get install -y python3 
